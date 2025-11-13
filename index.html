@@ -1,57 +1,92 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Píldoras para Computadora</title>
   <style>
     body {
-      font-family: Arial, Helvetica, sans-serif;
-      text-align: center;
-      background-color: #f7f9fc;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background-color: #f9fafc;
       margin: 0;
       padding: 0;
+      color: #333;
+      text-align: center;
     }
+
     header {
-      background-color: #004aad;
+      background: linear-gradient(135deg, #004aad, #0078ff);
       color: white;
-      padding: 20px 10px;
+      padding: 30px 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
+
     img {
-      width: 150px;
+      width: 130px;
       border-radius: 15px;
-      margin-top: 15px;
+      margin-top: 10px;
     }
+
     h1 {
       margin: 10px 0;
+      font-size: 2em;
     }
+
+    section {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 15px;
+    }
+
+    h2 {
+      color: #004aad;
+      border-bottom: 2px solid #004aad;
+      display: inline-block;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+
     p {
       font-size: 18px;
-      color: #333;
-      margin: 20px;
+      line-height: 1.6;
     }
-    .botones {
-      margin-top: 25px;
-    }
+
     .botones a {
       text-decoration: none;
       color: white;
       background-color: #004aad;
-      padding: 12px 25px;
-      margin: 5px;
+      padding: 10px 20px;
+      margin: 8px;
       border-radius: 8px;
-      font-weight: bold;
       display: inline-block;
+      font-weight: bold;
+      transition: background 0.3s;
     }
+
     .botones a:hover {
       background-color: #00337a;
     }
+
+    .proyecto {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      margin: 15px 0;
+      padding: 20px;
+    }
+
+    .proyecto a {
+      color: #004aad;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
     footer {
       background-color: #222;
       color: #ddd;
-      padding: 10px;
+      padding: 15px;
       font-size: 14px;
-      margin-top: 30px;
+      margin-top: 40px;
     }
   </style>
 </head>
@@ -60,23 +95,56 @@
   <header>
     <h1>Píldoras para Computadora 💊</h1>
     <img src="logo.jpg" alt="Logo de Píldoras para Computadora">
-  </header>
-
-  <main>
-    <p>
-      Aprende informática desde cero con explicaciones simples y prácticas.  
-      Aquí encontrarás tips, trucos y pequeños tutoriales para dominar tu PC 💻.
-    </p>
-
     <div class="botones">
       <a href="https://www.facebook.com/profile.php?id=61558764822293" target="_blank">📘 Facebook</a>
       <a href="https://wa.me/5212311030788" target="_blank">💬 WhatsApp</a>
-      <a href="https://github.com/EduardoCano94/pildorasparacomputadora" target="_blank">💻 GitHub</a>
+      <a href="https://github.com/EduardoCano94" target="_blank">💻 GitHub</a>
+      <a href="https://www.tiktok.com/@pildora_de_computadora?_r=1&_t=ZS-91N6qMpYdwD" target="_blank">🎵 TikTok</a>
     </div>
-  </main>
+  </header>
+
+  <section>
+    <h2>🧠 Sobre mí</h2>
+    <p>
+      ¡Hola! Soy <b>Jose Eduardo Cano Alarcón</b> (Lalo) de Jalacingo, estudiante de Ingeniería en Informática.  
+      Me apasiona enseñar computación básica y crear proyectos relacionados con tecnología, programación y automatización.  
+      A través de <b>Píldoras para Computadora</b> comparto consejos, tutoriales y recursos para que más personas aprendan informática desde cero.
+    </p>
+  </section>
+
+  <section>
+    <h2>💼 Proyectos</h2>
+
+    <div class="proyecto">
+      <h3>TurneroTec</h3>
+      <p>Aplicación web en <b>Laravel</b> para la gestión de turnos y citas.  
+         Incluye CRUD, control de usuarios y panel administrativo.</p>
+      <a href="https://github.com/EduardoCano94/turneroTec" target="_blank">Ver en GitHub</a>
+    </div>
+
+    <div class="proyecto">
+      <h3>Proyectos en VS Code</h3>
+      <p>He desarrollado prácticas y pequeños sistemas usando <b>HTML, CSS, JavaScript</b> y <b>PHP</b>.  
+         Algunos enfocados en bases de datos, APIs y automatización.</p>
+    </div>
+
+    <div class="proyecto">
+      <h3>Excel y Macros</h3>
+      <p>Diseños personalizados, automatización con <b>VBA</b> y creación de herramientas interactivas en Excel.  
+         También imparto <b>tutoriales básicos</b> para aprender el uso de fórmulas y funciones.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>🎓 Aprende con Píldoras</h2>
+    <p>
+      Publico contenido educativo en Facebook y próximamente aquí.  
+      Pronto agregaré secciones de videos y guías para aprender Excel, Word y temas básicos de programación.
+    </p>
+  </section>
 
   <footer>
-    © 2025 Píldoras para Computadora 
+    © 2025 Píldoras para Computadora
   </footer>
 
 </body>

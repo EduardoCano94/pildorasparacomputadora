@@ -1,1 +1,1 @@
-# pildorasparacomputadora
+# capsulas digitales
